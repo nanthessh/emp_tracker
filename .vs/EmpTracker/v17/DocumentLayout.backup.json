@@ -1,0 +1,339 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\components\\pages\\tasks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\components\\pages\\tasks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA6E7B23-871D-4B73-BD6D-21A752ECC2C8}|src\\EmpTracker.API\\EmpTracker.API.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA6E7B23-871D-4B73-BD6D-21A752ECC2C8}|src\\EmpTracker.API\\EmpTracker.API.csproj|solutionrelative:src\\emptracker.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CF6274-B04F-471A-A602-71856D93F774}|src\\EmpTracker.Core\\EmpTracker.Core.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.core\\interfaces\\irepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CF6274-B04F-471A-A602-71856D93F774}|src\\EmpTracker.Core\\EmpTracker.Core.csproj|solutionrelative:src\\emptracker.core\\interfaces\\irepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\components\\pages\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\components\\pages\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\services\\taskapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\services\\taskapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C42EDC3-A709-400A-BDA1-1EA0207F0DFD}|src\\EmpTracker.Infrastructure\\EmpTracker.Infrastructure.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C42EDC3-A709-400A-BDA1-1EA0207F0DFD}|src\\EmpTracker.Infrastructure\\EmpTracker.Infrastructure.csproj|solutionrelative:src\\emptracker.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA6E7B23-871D-4B73-BD6D-21A752ECC2C8}|src\\EmpTracker.API\\EmpTracker.API.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA6E7B23-871D-4B73-BD6D-21A752ECC2C8}|src\\EmpTracker.API\\EmpTracker.API.csproj|solutionrelative:src\\emptracker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA6E7B23-871D-4B73-BD6D-21A752ECC2C8}|src\\EmpTracker.API\\EmpTracker.API.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA6E7B23-871D-4B73-BD6D-21A752ECC2C8}|src\\EmpTracker.API\\EmpTracker.API.csproj|solutionrelative:src\\emptracker.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\emptracker.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\emptracker.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA6E7B23-871D-4B73-BD6D-21A752ECC2C8}|src\\EmpTracker.API\\EmpTracker.API.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA6E7B23-871D-4B73-BD6D-21A752ECC2C8}|src\\EmpTracker.API\\EmpTracker.API.csproj|solutionrelative:src\\emptracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7DE77D0-D138-480C-8EDA-186241578AAB}|src\\EmpTracker.Web\\EmpTracker.Web.csproj|solutionrelative:src\\emptracker.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CF6274-B04F-471A-A602-71856D93F774}|src\\EmpTracker.Core\\EmpTracker.Core.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CF6274-B04F-471A-A602-71856D93F774}|src\\EmpTracker.Core\\EmpTracker.Core.csproj|solutionrelative:src\\emptracker.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CF6274-B04F-471A-A602-71856D93F774}|src\\EmpTracker.Core\\EmpTracker.Core.csproj|c:\\users\\nanth\\source\\repos\\emp tracker\\src\\emptracker.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CF6274-B04F-471A-A602-71856D93F774}|src\\EmpTracker.Core\\EmpTracker.Core.csproj|solutionrelative:src\\emptracker.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tasks.razor",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Tasks.razor",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\Components\\Pages\\Tasks.razor",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Tasks.razor",
+              "RelativeToolTip": "src\\EmpTracker.Web\\Components\\Pages\\Tasks.razor",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAMwPQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T17:35:13.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\EmpTracker.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\EmpTracker.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-12T17:24:28.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Program.cs",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Program.cs",
+              "RelativeToolTip": "src\\EmpTracker.Web\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T17:21:58.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\appsettings.json",
+              "RelativeToolTip": "src\\EmpTracker.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-12T17:08:13.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employees.razor",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Employees.razor",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\Components\\Pages\\Employees.razor",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Employees.razor",
+              "RelativeToolTip": "src\\EmpTracker.Web\\Components\\Pages\\Employees.razor",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAKQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T17:05:32.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\EmpTracker.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.API\\appsettings.json",
+              "RelativeToolTip": "src\\EmpTracker.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-12T15:47:36.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Core\\Interfaces\\IRepositories.cs",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Core\\Interfaces\\IRepositories.cs",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Core\\Interfaces\\IRepositories.cs",
+              "RelativeToolTip": "src\\EmpTracker.Core\\Interfaces\\IRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T17:57:53.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskApiService.cs",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Services\\TaskApiService.cs",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\Services\\TaskApiService.cs",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Services\\TaskApiService.cs",
+              "RelativeToolTip": "src\\EmpTracker.Web\\Services\\TaskApiService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T15:42:19.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\EmpTracker.Web\\Services\\AuthService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwEEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T15:42:10.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\EmpTracker.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T17:57:26.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\EmpTracker.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\EmpTracker.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T17:57:44.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "src\\EmpTracker.Web\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T15:42:36.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "src\\EmpTracker.Web\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T15:42:30.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\EmpTracker.API\\Program.cs",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.API\\Program.cs",
+              "RelativeToolTip": "src\\EmpTracker.API\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T15:40:56.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmpTracker.Web",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\EmpTracker.Web.csproj",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\EmpTracker.Web.csproj",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\EmpTracker.Web.csproj",
+              "RelativeToolTip": "src\\EmpTracker.Web\\EmpTracker.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T16:13:41.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Web\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Web\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "src\\EmpTracker.Web\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T15:46:10.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Core\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Core\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Core\\Models\\TaskItem.cs",
+              "RelativeToolTip": "src\\EmpTracker.Core\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T15:41:48.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\EmpTracker.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\nanth\\source\\repos\\Emp Tracker\\src\\EmpTracker.Core\\Models\\User.cs",
+              "RelativeToolTip": "src\\EmpTracker.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T15:41:43.887Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

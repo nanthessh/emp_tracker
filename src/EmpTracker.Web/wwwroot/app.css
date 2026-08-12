@@ -1,0 +1,28 @@
+html, body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+}
+
+.card {
+    border-radius: 0.75rem;
+}
+
+.table th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6c757d;
+}
+
+.badge {
+    font-size: 0.75rem;
+    padding: 0.35em 0.65em;
+}
+
+.modal.show.d-block {
+    overflow-y: auto;
+}
+
+.btn-sm {
+    font-size: 0.8rem;
+}

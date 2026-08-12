@@ -1,0 +1,207 @@
+@page "/employees"
+@inject AuthService AuthService
+@inject HttpClient Http
+@inject NavigationManager Nav
+
+<PageTitle>Employees – EmpTracker</PageTitle>
+
+@if (currentUser is null)
+{
+    <div class="d-flex justify-content-center align-items-center min-vh-100">
+        <div class="spinner-border text-primary"></div>
+    </div>
+}
+else
+{
+    <div class="container-fluid py-4">
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h4 class="fw-bold mb-0">Employee Management</h4>
+                <small class="text-muted">Admin panel</small>
+            </div>
+            <div class="d-flex gap-2">
+                <a href="/dashboard" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-speedometer2 me-1"></i>Dashboard
+                </a>
+                <a href="/tasks" class="btn btn-outline-primary btn-sm">
+                    <i class="bi bi-list-task me-1"></i>Tasks
+                </a>
+                <button class="btn btn-primary btn-sm" @onclick="() => showModal = true">
+                    <i class="bi bi-person-plus me-1"></i>Add Employee
+                </button>
+            </div>
+        </div>
+
+        <!-- Info Card -->
+        <div class="alert alert-info py-2 mb-3">
+            <i class="bi bi-info-circle me-2"></i>
+            Employee login: <strong>Email = name@emptracker.com</strong> &nbsp;|&nbsp; <strong>Password = name</strong> (all lowercase, no spaces)
+        </div>
+
+        <!-- Employees Table -->
+        <div class="card border-0 shadow-sm">
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Password (auto)</th>
+                                <th>Role</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var e in employees)
+                            {
+                                <tr>
+                                    <td class="text-muted small">@e.UserId</td>
+                                    <td><i class="bi bi-person-circle me-1 text-primary"></i>@e.Name</td>
+                                    <td>@e.Email</td>
+                                    <td><code>@GetPasswordFromName(e.Name)</code></td>
+                                    <td><span class="badge bg-info text-dark">Employee</span></td>
+                                </tr>
+                            }
+                            @if (!employees.Any())
+                            {
+                                <tr><td colspan="5" class="text-center text-muted py-4">No employees found. Add one!</td></tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Employee Modal -->
+    @if (showModal)
+    {
+        <div class="modal fade show d-block" tabindex="-1" style="background:rgba(0,0,0,.5)">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><i class="bi bi-person-plus me-2"></i>Add Employee</h5>
+                        <button type="button" class="btn-close" @onclick="CloseModal"></button>
+                    </div>
+                    <div class="modal-body">
+                        @if (!string.IsNullOrEmpty(errorMsg))
+                        {
+                            <div class="alert alert-danger py-2">@errorMsg</div>
+                        }
+                        @if (!string.IsNullOrEmpty(successMsg))
+                        {
+                            <div class="alert alert-success py-2">@successMsg</div>
+                        }
+
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Full Name <span class="text-danger">*</span></label>
+                            <input class="form-control" placeholder="e.g. John Smith"
+                                   @bind="employeeName" @bind:event="oninput" />
+                        </div>
+
+                        @if (!string.IsNullOrWhiteSpace(employeeName))
+                        {
+                            <div class="card bg-light border-0 p-3 mb-2">
+                                <div class="small text-muted mb-1">Auto-generated credentials:</div>
+                                <div><strong>Email:</strong> <code>@GetEmailFromName(employeeName)</code></div>
+                                <div><strong>Password:</strong> <code>@GetPasswordFromName(employeeName)</code></div>
+                            </div>
+                        }
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" @onclick="CloseModal">Cancel</button>
+                        <button class="btn btn-primary" @onclick="AddEmployee" disabled="@isSaving">
+                            @if (isSaving) { <span class="spinner-border spinner-border-sm me-1"></span> }
+                            Create Employee
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@code {
+    private LoginResponse? currentUser;
+    private List<EmployeeDto> employees = [];
+    private bool showModal;
+    private bool isSaving;
+    private string employeeName = "";
+    private string? errorMsg;
+    private string? successMsg;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+        currentUser = await AuthService.GetCurrentUserAsync();
+        if (currentUser is null || currentUser.Role != "Admin")
+        {
+            Nav.NavigateTo("/login");
+            return;
+        }
+        await LoadEmployees();
+        StateHasChanged();
+    }
+
+    private async Task LoadEmployees()
+    {
+        await AuthService.SetAuthHeaderAsync(Http);
+        employees = await Http.GetFromJsonAsync<List<EmployeeDto>>("api/users/employees") ?? [];
+    }
+
+    private static string GetEmailFromName(string name)
+        => name.Replace(" ", "").ToLower() + "@emptracker.com";
+
+    private static string GetPasswordFromName(string name)
+        => name.Replace(" ", "").ToLower();
+
+    private async Task AddEmployee()
+    {
+        errorMsg = null;
+        successMsg = null;
+
+        if (string.IsNullOrWhiteSpace(employeeName))
+        {
+            errorMsg = "Name is required.";
+            return;
+        }
+
+        isSaving = true;
+        await AuthService.SetAuthHeaderAsync(Http);
+
+        var request = new RegisterRequest
+        {
+            Name = employeeName,
+            Email = GetEmailFromName(employeeName),
+            Password = GetPasswordFromName(employeeName),
+            Role = "Employee"
+        };
+
+        var res = await Http.PostAsJsonAsync("api/auth/register", request);
+        isSaving = false;
+
+        if (res.IsSuccessStatusCode)
+        {
+            successMsg = $"Employee '{employeeName}' created! Email: {request.Email} | Password: {request.Password}";
+            employeeName = "";
+            await LoadEmployees();
+        }
+        else
+        {
+            var err = await res.Content.ReadFromJsonAsync<ErrorResponse>();
+            errorMsg = err?.Message ?? "Failed to create employee.";
+        }
+    }
+
+    private void CloseModal()
+    {
+        showModal = false;
+        errorMsg = null;
+        successMsg = null;
+        employeeName = "";
+    }
+
+    private record ErrorResponse(string Message);
+}

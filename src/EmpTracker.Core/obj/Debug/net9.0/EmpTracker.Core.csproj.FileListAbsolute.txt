@@ -1,0 +1,11 @@
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\bin\Debug\net9.0\EmpTracker.Core.deps.json
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\bin\Debug\net9.0\EmpTracker.Core.dll
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\bin\Debug\net9.0\EmpTracker.Core.pdb
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\obj\Debug\net9.0\EmpTracker.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\obj\Debug\net9.0\EmpTracker.Core.AssemblyInfoInputs.cache
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\obj\Debug\net9.0\EmpTracker.Core.AssemblyInfo.cs
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\obj\Debug\net9.0\EmpTracker.Core.csproj.CoreCompileInputs.cache
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\obj\Debug\net9.0\EmpTracker.Core.dll
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\obj\Debug\net9.0\refint\EmpTracker.Core.dll
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\obj\Debug\net9.0\EmpTracker.Core.pdb
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Core\obj\Debug\net9.0\ref\EmpTracker.Core.dll

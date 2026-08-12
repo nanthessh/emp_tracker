@@ -1,0 +1,15 @@
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\bin\Debug\net9.0\EmpTracker.Infrastructure.deps.json
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\bin\Debug\net9.0\EmpTracker.Infrastructure.dll
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\bin\Debug\net9.0\EmpTracker.Infrastructure.pdb
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\bin\Debug\net9.0\EmpTracker.Core.dll
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\bin\Debug\net9.0\EmpTracker.Core.pdb
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\EmpTracker.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\EmpTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\EmpTracker.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\EmpTracker.Infrastructure.AssemblyInfo.cs
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\EmpTracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\EmpTrack.D35AF4AA.Up2Date
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\EmpTracker.Infrastructure.dll
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\refint\EmpTracker.Infrastructure.dll
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\EmpTracker.Infrastructure.pdb
+C:\Users\nanth\source\repos\Emp Tracker\src\EmpTracker.Infrastructure\obj\Debug\net9.0\ref\EmpTracker.Infrastructure.dll
