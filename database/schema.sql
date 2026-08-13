@@ -110,22 +110,17 @@ GO
 
 -- =============================================
 -- Stored Procedures: Users
--- =============================================
+DROP PROCEDURE IF EXISTS sp_GetAllEmployees;
+GO
 
-SELECT DB_NAME();
-exec sp_GetAllEmployees
-
-DROP PROCEDURE IF EXISTS GetAllEmployees;
-
-
-CREATE OR ALTER PROCEDURE sp_GetAllEmployees
+CREATE PROCEDURE sp_GetAllEmployees
 AS
 BEGIN
     SET NOCOUNT ON;
     SELECT UserId, Name, Email, Role FROM Users WHERE Role = 'Employee';
 END
 GO
-
+    
 CREATE OR ALTER PROCEDURE sp_CreateUser
     @Name         NVARCHAR(100),
     @Email        NVARCHAR(150),
